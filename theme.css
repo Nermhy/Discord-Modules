@@ -71,7 +71,7 @@ button:active, .button-3bklZh:active, .lookFilled-1Gx00P:active, .lookOutlined-3
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.avatar_c19a55.clickable_c19a55:hover, .wrapper__44b0c:hover {
+.avatar_c19a55.clickable_c19a55:hover, .wrapper__44b0c:hover, .overlay_c0bea0.biteSize_c0bea0.card__39ec2.card__39ec2.activity__5be3e:hover {
     transform: scale(0.95);
     box-shadow: 0 0 0 5px rgba(128, 128, 128, 0.1);
 }
