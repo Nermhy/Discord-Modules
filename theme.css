@@ -1,0 +1,140 @@
+/* @import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css"); */
+@import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
+/* @import url("https://aushevahmad.github.io/awesome-css/modules/compressbotmsgs.css"); */
+
+/* #channels [class^=container_]:not([class*=containerWithMargin])
+ { max-height: 0;
+   overflow: hidden; 
+   transition: max-height 2s ease; }
+   
+   #channels [class^=containerDefault_]:hover + [class^=container_],
+   #channels [class^=container_]:hover,
+   #channels .link__2ea32:hover {
+     max-height: 100%;
+   }
+
+:root {
+    --prompt-text: "be silly :3";
+} */
+
+.link__2ea32, .link__972a0, .member__5d473.member_c8ffbb.container__91a9d.clickable__91a9d, .item_b3f026 {
+    border-radius: 10px !important;
+    transition: transform 0.1s ease;
+}
+
+/* .inner__0b5bb.wanderingCubes__0b5bb {
+    background-color: red;
+} */
+
+/* [class*="channelTextArea_f75fb0 channelTextArea__74017 channelTextAreaDisabled__74017"] > div {
+	display: none;
+} */
+
+
+.link__2ea32:active, .link__972a0:active, .member__5d473.member_c8ffbb.container__91a9d.clickable__91a9d:active, .item_b3f026:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 5px rgba(128, 128, 128, 0.1);
+  }
+
+.bratuha {
+    text-shadow: rgba(250,0,0,0.35) 0px 0px 8px;
+}
+
+button, .button-3bklZh, .lookFilled-1Gx00P, .lookOutlined-3sRXeN {
+    border-radius: 15px !important; 
+    transition: background 0.3s, box-shadow 0.3s, transform 0.1 ease;
+}
+
+.role_dfa8b6.pill_dfa8b6, .expandButton_fccfdf.pill_fccfdf, .button_fb7f94.button__7d7f7.button__201d5.lookFilled__201d5, .collapseButton_fccfdf.pill_fccfdf, .container__8061a {
+    border-radius: 10px !important;
+    padding: 5px;
+    height: auto;
+}
+
+button:active, .button-3bklZh:active, .lookFilled-1Gx00P:active, .lookOutlined-3sRXeN:active, .link__2ea32:active, .wrapper_cc5dd2:active, .privateChannelRecipientsInviteButtonIcon__99e7c.icon__9293f:active {
+    transform: scale(0.95);
+  }
+
+.lockedEmoji_d982c2.image__1859b {
+    border-radius: 10px;
+}
+
+.emoji, .pngImage__31fc2.stickerAsset__31fc2 {
+    border-radius: 5px;
+}
+
+.userTagDiscriminator__63ed3 {
+    display: none;
+}
+
+.avatar_c19a55, .wrapper__44b0c {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar_c19a55.clickable_c19a55:hover, .wrapper__44b0c:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 5px rgba(128, 128, 128, 0.1);
+}
+
+.pill_e5445c.wrapper__58105:hover {
+    box-shadow: 0 0 0 5px rgba(128, 128, 128, 0.1);
+}
+.textarea-3Bkn8P:focus {
+    display: none;
+}
+
+.biteSize_c0bea0 {
+    border-radius: 15px;
+}
+
+.button_fb7f94 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button_fb7f94:hover {
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.1);
+}
+
+.bar__3b95d.unreadMentionsBar_ef3116.mention__3b95d.active__3b95d {
+    background-color: oklab(0.268096 0.0689536 0.0319369);
+}
+.button__201d5.lookFilled__201d5.colorRed__201d5.sizeMedium__201d5.grow__201d5 {
+    background-color: oklab(0.268096 0.0689536 0.0319369);
+    color: oklab(0.764709 0.118481 0.0512528);
+}
+
+div.item_b3f026.themed_b3f026[aria-label="Delete Server"],
+button.button__201d5.lookFilled__201d5.colorRed__201d5.sizeMedium__201d5.grow__201d5 {
+  pointer-events: none; /* Отключает клики */
+  opacity: 0.5;         /* Изменяет внешний вид на "отключённый" */
+}
+
+
+/* Анимация стрелки */
+.toggle-input {
+    display: none;
+  }
+  
+  /* Стили для заголовка, на который можно нажать */
+  .audit-header {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  /* Стили для содержимого аккордеона */
+  .audit-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 0 10px;
+  }
+  
+  /* При включённом чекбоксе раскрываем содержимое */
+  .toggle-input:checked + .audit-header + .audit-content {
+    max-height: 500px; /* Подберите значение, достаточное для вашего содержимого */
+    padding: 10px;
+  }
