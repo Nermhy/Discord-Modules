@@ -50,10 +50,6 @@ button, .button-3bklZh, .lookFilled-1Gx00P, .lookOutlined-3sRXeN {
     height: auto;
 }
 
-.overlay_c0bea0.biteSize_c0bea0.card__39ec2.card__39ec2.activity__5be3e {
-    transition: outline 0.3s ease;
-}
-
 button:active, .button-3bklZh:active, .lookFilled-1Gx00P:active, .lookOutlined-3sRXeN:active, .link__2ea32:active, .wrapper_cc5dd2:active, .privateChannelRecipientsInviteButtonIcon__99e7c.icon__9293f:active, .overlay_c0bea0.biteSize_c0bea0.card__39ec2.card__39ec2.activity__5be3e:active {
     transform: scale(0.95);
   }
@@ -71,7 +67,7 @@ button:active, .button-3bklZh:active, .lookFilled-1Gx00P:active, .lookOutlined-3
 }
 
 .avatar_c19a55, .wrapper__44b0c {
-    transition: transform 0.3s ease, outline 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .avatar_c19a55.clickable_c19a55:hover, .wrapper__44b0c:hover {
